@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 1.1rem;
+}
+
+.custom-font-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.custom-font-light {
+  opacity: 0.5;
+}
+
+.custom-background {
+  background: linear-gradient(120deg, #000000 50%, #ffffff 100%);
+  animation: myAnim 3s ease 0s infinite normal forwards;
+}
+
+@keyframes myAnim {
+  0% {
+    background-position: center bottom;
+    background-size: 100%;
+  }
+
+  50% {
+    background-position: center bottom;
+    background-size: 1000%;
+  }
+
+  75% {
+    background-position: center bottom;
+    background-size: 500%;
+  }
+
+  100% {
+    background-position: center bottom;
+    background-size: 100%;
+  }
+}
