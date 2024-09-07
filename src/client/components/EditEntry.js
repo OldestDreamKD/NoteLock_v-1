@@ -19,7 +19,7 @@ const EditEntryPopup = ({ show, onClose, onEdit, note }) => {
     if (deleteStatus) {
       handleSubmit(); // Handle delete when deleteStatus is updated
     }
-  }, [deleteStatus]);
+  });
 
   const handleClose = () => {
     setContent("");
